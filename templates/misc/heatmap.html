@@ -4,9 +4,7 @@
    <script src="http://cdn.leafletjs.com/leaflet-0.5/leaflet.js"></script>
    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
    <script src="http://d3js.org/queue.v1.min.js"></script>
-
    <script src="http://d3js.org/topojson.v1.min.js"></script>
-
 
 <style>
 
@@ -66,13 +64,7 @@ function makeMap(error, data_1,tjson_1) {
         fillOpacity: 0.7
     };
 }
-
-
-
     gJson_layer_1 = L.geoJson(topo_1, {style: style_1}).addTo(map)
-
-
-
         var legend = L.control({position: 'topright'});
 
     legend.onAdd = function (map) {var div = L.DomUtil.create('div', 'legend'); return div};
