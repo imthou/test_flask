@@ -1,5 +1,6 @@
 import os
 from flask import Flask
+import numpy as np
 
 # initialization
 app = Flask(__name__)
